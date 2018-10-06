@@ -1,0 +1,40 @@
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: 0021A5;
+    color: rgb(212, 211, 211)
+}
+.my-navbar {
+    background-color: navy;
+}
+.my-navbar a {
+    color: rgb(212, 211, 211);
+}
+
+
+@media(min-width: 768px) {
+    .navbar {
+        border-radius: 0;
+    }
+}
+
+.jumbotron {
+    background-image: url(../images/OceanSail.jpg);
+    background-size: 100% auto;
+    background-position: 0 67%;
+
+}
+
+.jumbotron h1, .jumbotron p {
+    background-color: rgba(0, 0, 0, .075);
+    color: rgb(212, 211, 211);
+    width: 67%;
+}
+
+.btn-primary {
+    background-color: crimson;
+    border-color: crimson   ;
+}
+
+/*
+.jumbotron p {
+    width: 67%;
+} */
